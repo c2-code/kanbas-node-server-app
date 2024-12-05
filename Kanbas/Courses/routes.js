@@ -1,6 +1,7 @@
 import * as dao from "./dao.js";
 import * as modulesDao from "../Modules/dao.js";
 import * as assignmentsDao from "../Assignments/dao.js";
+import Database from "../Database/index.js";
 
 export default function CourseRoutes(app) {
 
